@@ -1,7 +1,10 @@
 import Link from "next/link"
+import NewsletterSection from "./NewsletterSection"
 
 export default function Footer() {
   return (
+    <>
+    <NewsletterSection />
     <footer style={{ background: "#111", color: "#fff", fontFamily: "'Poppins', sans-serif" }}>
       <div style={{ maxWidth: 1140, margin: "0 auto", padding: "60px 20px 40px" }}>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 40, marginBottom: 40 }}>
@@ -82,5 +85,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </>
   )
 }

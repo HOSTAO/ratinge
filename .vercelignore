@@ -1,0 +1,7 @@
+public/wp-content
+public/*.php
+public/xmlrpc.php
+README*
+*.md
+*.log
+.git
